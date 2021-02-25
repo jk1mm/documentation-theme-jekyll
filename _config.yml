@@ -26,7 +26,7 @@ exclude:
 
 feedback_subject_line: Jekyll documentation theme
 
-feedback_email: tomjoht@gmail.com
+feedback_email: joshkim47@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -62,8 +62,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
+      comments: false
       search: true
       sidebar: home_sidebar
       topnav: topnav
@@ -82,8 +81,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
+      comments: false`
       search: true
       sidebar: home_sidebar
       topnav: topnav
@@ -104,5 +102,11 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 url: "http://jk1mm.github.io"
 baseurl: "/documentation-theme-jekyll" # the subpath of your site, e.g. /blog
 
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/jk1mm
+  - title: linkedin
+    url: https://www.linkedin.com/in/1joshkim/
 
 github: [metadata]
